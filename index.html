@@ -3761,7 +3761,7 @@ function pickIssue(){
   stage='issue';
   say('What help do you need?');
   ops(ISSUES.map(function(q){return '<button type="button" data-k="'+q[0]+'">'+q[1]+'</button>'}).join(''))}
-function mailMsg(){say('If you would like to contact us directly, you can email us at <a href="mailto:customiza@gmail.com">customiza@gmail.com</a>.')}
+function mailMsg(){say('If you would like to contact us directly, you can email us at <a href="mailto:customiza.official@gmail.com">customiza.official@gmail.com</a>.')}
 function noOf(x){return x.orderNo||x.id.slice(-6).toUpperCase()}
 function send(key,label,msg){
   if(sending||!cur)return;sending=true;lock();
